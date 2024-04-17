@@ -1,0 +1,117 @@
+nav {
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.125), -2px -2px 4px rgba(0,0,0,0.125);
+  }
+  
+  .navbar-brand{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 32px;
+  }
+  
+  .nav-link{
+    text-transform: uppercase;
+    margin-right: 30px;
+  }
+  
+
+body {
+    background: url("image/Group\ 3.svg");
+    background-position: center;
+}
+
+.content {
+    margin-top: 60px;
+    width: 100%;
+    padding: 20px;
+}
+
+.item {
+    background:rgb(247, 245, 245);
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.125), -2px -2px 4px rgba(0,0,0,0.125);
+    margin-right: 150px;
+    margin-left: 90px ;
+    margin-top: 10px;
+    width: 60.8%;
+    height: 260px;
+    padding: 20px;
+}
+
+.item h4 {
+    font-weight: bold;
+    color: #5e3179;
+}
+
+.btn-1 {
+    margin-left: 190px;
+    margin-bottom: 10px;
+    background-color: rgb(248, 213, 16);
+    border: none;
+    height: 30px;
+    border-radius: 2px;
+}
+
+.btn-1 img {
+    width: 17px;
+    height: 17px;
+    /* margin-left: 500px; */
+}
+/* Desktop version */
+@media (min-width: 992px) {
+nav {
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.125), -2px -2px 4px rgba(0,0,0,0.125);
+  }
+  
+  .navbar-brand{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 32px;
+  }
+  
+  .nav-link{
+    text-transform: uppercase;
+    margin-right: 30px;
+  }
+  
+
+body {
+    background: url("image/Group\ 3.svg");
+    background-position: center;
+}
+
+.content {
+    margin-top: 60px;
+    width: 100%;
+    padding: 20px;
+}
+
+.item {
+    background:rgb(247, 245, 245);
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.125), -2px -2px 4px rgba(0,0,0,0.125);
+    margin-right: 150px;
+    margin-left: 300px ;
+    margin-top: 10px;
+    width: 50.8%;
+    height: 260px;
+    padding: 20px;
+}
+
+.item h4 {
+    font-weight: bold;
+    color: #5e3179;
+}
+
+.btn-1 {
+    margin-left: 530px;
+    margin-bottom: 10px;
+    background-color: rgb(248, 213, 16);
+    border: none;
+    height: 30px;
+    border-radius: 2px;
+}
+
+.btn-1 img {
+    width: 17px;
+    height: 17px;
+    /* margin-left: 500px; */
+}
+}

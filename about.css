@@ -1,0 +1,78 @@
+/* Navbar home */
+nav {
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.125), -2px -2px 4px rgba(0,0,0,0.125);
+  }
+  
+  .navbar-brand{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 32px;
+  }
+  
+  .nav-link{
+    text-transform: uppercase;
+    margin-right: 30px;
+  }
+
+  body {
+    background: url("image/Group\ 3.svg");
+    }
+    .header {
+        background:rgb(247, 245, 245);
+        background-position: center;
+        border-radius: 20px;
+        box-shadow: 2px 2px 4px rgba(0,0,0,0.125), -2px -2px 4px rgba(0,0,0,0.125);
+        margin-left: 25px;
+        width: 90%;
+        padding: 20px;
+        margin-bottom: 20px;
+        margin-top: 130px;
+        font-family: Oxygen;
+        text-align: left;
+    }  
+    
+    .header h3 {
+        font-weight: bold;
+        color: #5e3179;
+    }
+
+/* Desktop version */
+@media (min-width: 992px) {
+    .nav-link{
+      text-transform: uppercase;
+      margin-right: 30px;
+    }
+  
+    .nav-link:hover::after {
+      content:'';
+      display: block;
+      border-bottom: 3px solid rgb(248, 213, 16);
+      width: 50%;
+      margin: auto;
+      padding-bottom: 5px;
+      margin-bottom: -8px;
+    }
+
+    body {
+        background: url("image/Group\ 3.svg");
+    }
+    .header {
+    background:rgb(247, 245, 245);
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.125), -2px -2px 4px rgba(0,0,0,0.125);
+    margin-right: 80px;
+    margin-left: 320px;
+    width: 49%;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 180px;
+    /* font-size: 50px; */
+    font-family: Oxygen;
+    text-align: left;
+    }   
+
+    .header h3 {
+        font-weight: bold;
+        color: #5e3179;
+    }
+}
